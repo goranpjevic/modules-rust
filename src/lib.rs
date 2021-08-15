@@ -57,7 +57,7 @@ use crate::first_module::nested_module::{self, nested_function, PublicStruct};
 use crate::first_module::nested_module::PublicStruct as PubStrct;
 
 // we have to declare all modules that are defined in separate files
-
+// the module name is the same as the name of the file
 mod separate_file;
 
 use separate_file::module_in_a_separate_file;
